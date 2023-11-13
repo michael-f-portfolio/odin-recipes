@@ -1,5 +1,4 @@
 # odin-recipes
-<<<<<<< HEAD
 Showcasing Basic HTML attributes such as:
 Headers to organize the document
 Paragraphs for basic document structure

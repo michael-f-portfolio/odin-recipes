@@ -1,5 +1,5 @@
 # odin-recipes
-Showcasing Basic HTML attributes suchas:
+Showcasing Basic HTML attributes such as:
 Headers to organize the document
 Paragraphs for basic document structure
 Ordered and unordered lists

@@ -1,40 +1,69 @@
-.main {
+* {
+    /* display: block; */
     font-family: 'Courier New', Courier, monospace;
-    background-color: #e1e1e1;
+    /* background-color: #e1e1e1; */
+    /* border: 2px solid red; */
+
 }
 
-.title {
-    font-size: 60px;
-    font-weight: bold;
+/* Elements */
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    color: #264653
 }
 
-.content {
-    background-color: aqua;
-    font-size: 20px;
-    padding: 20px 20px;
+a:hover {
+    color: black;
 }
 
-.content ol li {
-    list-style-position: inside;
-    text-align: left;
-    padding-left: 30em;
-}
-
-.content ul li {
-    list-style-position: inside;
-    text-align: left;
-    padding-left: 30em;
-}
-
+/* Custom Classes */
 .container {
     text-align: center;
-    color: #963838;
-    background-color: #000;
-    list-style: none;
+    /* display: inline-block; */
+    margin: 48px 96px;
+    padding: 8px;
+}
+
+.recipe-list {
+    margin: 8px;
+}
+
+.unordered-list {
+    text-align: center;
+    margin: 18px 640px;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 16px 18px;
+    margin: 8px;
+}
+
+.title-card {
+    margin: 32px 640px;
+    font-size: 32px;
+}
+
+.main-content {
+    margin: 12px px;
+    padding: 12px 16px;
 }
 
 .footer {
-    padding: 25px 25px 50px;
-    background-color: #000;
-    color: #963838;
+    margin: 32px 640px;
+}
+
+/* color scheme */
+
+.primary-color {
+    background-color: #264653;
+    color: #2A9D8F;
+}
+
+.secondary-color {
+    color: #264653;
+    background-color: #2A9D8F;
 }
